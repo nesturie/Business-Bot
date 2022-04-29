@@ -1,0 +1,183 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+#____new development story lines_____
+
+# BUSINESS CULTURE STORY LINE
+
+- story: info_about_business_culture
+  steps:
+  - intent: businessculture
+  - action: utter_businessculture
+  - intent: affirm
+  - action: utter_infobusinessculture
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# START A BUSINESS STORY LINE
+
+- story: info_about_starting_a_business
+  steps:
+  - intent: startabusiness
+  - action: utter_startabusiness
+  - intent: affirm
+  - action: utter_infostartabusiness
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# LEGAL STRUCTURES STORY LINE
+
+- story: info_about_legalstructures
+  steps:
+  - intent: legalstructures
+  - action: utter_legalstructures
+  - intent: affirm
+  - action: utter_infolegalstructures
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# BUSINESS EXPAT STORY LINE
+
+- story: info_about_starting_businessexpat
+  steps:
+  - intent: businessexpat
+  - action: utter_businessexpat
+  - intent: affirm
+  - action: utter_infobusinessexpat
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# BUSINESS VISA STORY LINE
+
+- story: info_about_businessvisa
+  steps:
+  - intent: businessvisa
+  - action: utter_businessvisa
+  - intent: affirm
+  - action: utter_infobusinessvisa
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# FOREIGN BRANCHES AND SUBSIDIARY STORY LINE
+
+- story: info_about_businessforeignbranchsubsidiary
+  steps:
+  - intent: businessforeignbranchsubsidiary
+  - action: utter_businessforeignbranchsubsidiary
+  - intent: affirm
+  - action: utter_infobusinessforeignbranchsubsidiary
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# NON PROFIT BUSINESS STORY LINE
+
+- story: info_about_businessnonprofit
+  steps:
+  - intent: businessnonprofit
+  - action: utter_businessnonprofit
+  - intent: affirm
+  - action: utter_infobusinessnonprofit
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# BUSINESS ADMINISTRATION STORY LINE
+
+- story: info_about_businessadministration
+  steps:
+  - intent: businessadministration
+  - action: utter_businessadministration
+  - intent: affirm
+  - action: utter_infobusinessadministration
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# BANKING AND BUSINESS STORY LINE
+
+- story: info_about_businessbanking
+  steps:
+  - intent: businessbanking
+  - action: utter_businessbanking
+  - intent: affirm
+  - action: utter_infobusinessbanking
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# BUSINESS TAX STORY LINE
+
+- story: info_about_businesstax
+  steps:
+  - intent: businesstax
+  - action: utter_businesstax
+  - intent: affirm
+  - action: utter_infobusinesstax
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# BUSINESS INSURANCE STORY LINE
+
+- story: info_about_businessinsurance
+  steps:
+  - intent: businessinsurance
+  - action: utter_businessinsurance
+  - intent: affirm
+  - action: utter_infobusinessinsurance
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# BUSINESS STAFF AND EMPLOYMENT STORY LINE
+
+- story: info_about_businessstaffemployment
+  steps:
+  - intent: businessstaffemployment
+  - action: utter_businessstaffemployment
+  - intent: affirm
+  - action: utter_infobusinessstaffemployment
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+# NEGATIVE ||ANSWER DENIAL STORY LINE||+++
+
+- story: denialstoryline
+  steps:
+  - intent: deny
+  - action: utter_denialstoryline

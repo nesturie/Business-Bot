@@ -1,0 +1,164 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a humaan?
+   
+#MAIN INTENTS FIRST STAGE
+
+- intent: businessculture
+  examples: |
+    - What is the business culture like in the United Kingdom?
+    - Can you tell me more about the culture in the United Kingdom UK regardaing or about the business perspective?
+
+- intent: startabusiness
+  examples: |
+    - Can you tell me more about how I can open a business in the United Kingdom?
+    - I would like to start opening a business in the United Kingdom and I would like some info?
+
+- intent: legalstructures
+  examples: |
+    - What legal structures are there in the United Kingdom regarding businesses?
+    - Legal info about opening a business in the United Kingdom?
+
+- intent: businessexpat
+  examples: |
+    - I want to start as self employed?
+    - How can I start a business as a foreigner in the United Kingdom?
+
+- intent: businessvisa
+  examples: |
+    - What visas are available in the United Kingdom ?
+    - Can I get a visa from the business or work in the United Kingdom?
+
+- intent: businessforeignbranchsubsidiary
+  examples: |
+    - How can a foreing company open a branch or subsidiary in the United Kingdom?
+    - I would like to open a new branch of my foreign company in the United Kingdom?
+
+- intent: businessnonprofit
+  examples: |
+    - I would like some information about non profit businesses in the United Kingdom?
+    - How can I open a non profit organisation or business in the United Kingdom?
+
+- intent: businessadministration
+  examples: |
+    - How can I administrate my business in the UK?
+    - I need to know more about business administration in the United Kingdom?
+
+- intent: businessbanking
+  examples: |
+    - I would like some information about the business banking in the United Kingdom?
+    - What banking can I open in the United Kingdom?
+
+- intent: businesstax
+  examples: |
+    - Taxation for businesses in the United Kingdom
+    - How do business get taxed in the United Kingdom?
+
+- intent: businessinsurance
+  examples: |
+    - Can I get insurance for my business in the United Kingdom?
+    - Can business get insured in the United Kingdom?
+    - Public liability insurance
+    - Employers’ liability insurance
+    - Professional indemnity insurance 
+    - Building insurance
+    - Contents insurance
+    - insurance
+    - business insurance
+
+- intent: businessstaffemployment
+  examples: |
+    - Can I employ staff in my business and how can I employ them?
+    - What regulations should I follow to employ people in my business?
+
+- intent: businesssupportadvice
+  examples: |
+    - support schemes
+    - start up loans
+    - law society on setting up a business

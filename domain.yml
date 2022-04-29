@@ -1,0 +1,271 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - businessculture
+  - startabusiness
+  - legalstructures
+  - businessexpat
+  - businessvisa
+  - businessforeignbranchsubsidiary
+  - businessnonprofit
+  - businessadministration
+  - businessbanking
+  - businesstax
+  - businessinsurance
+  - businessstaffemployment
+  - businesssupportadvice
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on! Do not hesitate to ask us about any business enquiry!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+ #main utter
+  utter_businessculture:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business culture in the United Kingdom?"
+
+  utter_startabusiness:
+  - text: "Greetings! Thank you for you interest! Would you like some information about on how to start a business in the United Kingdom?"
+
+  utter_legalstructures:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business legal structures in the United Kingdom?"
+
+  utter_businessexpat:
+  - text: "Greetings! Thank you for you interest! Would you like some information about being Self-Employed in the United Kingdom?"
+
+  utter_businessvisa:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business visas in the United Kingdom?"
+
+  utter_businessforeignbranchsubsidiary:
+  - text: "Greetings! Thank you for you interest! Would you like some information about opening a branch or subsidiary in the United Kingdom?"
+
+  utter_businessnonprofit:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the Non-profit businesses in the United Kingdom?"
+
+  utter_businessadministration:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business administration in the United Kingdom?"
+
+  utter_businessbanking:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business banking in the United Kingdom?"
+
+  utter_businesstax:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business tax in the United Kingdom?"
+
+  utter_businessinsurance:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business insurance in the United Kingdom?"
+
+  utter_businessstaffemployment:
+  - text: "Greetings! Thank you for you interest! Would you like some information about staff and employment in the United Kingdom?"
+
+  utter_businesssupportadvice:
+  - text: "Greetings! Thank you for you interest! Would you like some information about the business schemes and loans in the United Kingdom?"
+ # info utter
+  utter_infobusinessculture:
+  - text: "The UK has around six million private sector businesses, according to official government data, and this figure is growing. 
+    Since 2000, the number of businesses in the UK has increased by 2.4 million. Three-quarters of UK businesses don’t have any employees, meaning they’re owned by self-employed sole-traders or partnerships. Around five million UK residents are registered as self-employed, amounting to 15% of the overall workforce."
+
+  utter_infostartabusiness:
+  - text: "As it stands, EU and EEA nationals don’t need special permission to start businesses in the UK, with the exception of residents from Bulgaria and Romania. The UK still negotiating its withdrawal from the EU, however, so these rules could yet change.
+
+        If you’re from a country outside of the EU or EEA, you may need a visa. Prospective entrepreneurs can receive favorable treatment in the UK’s points-based immigration system, but you’ll need to adhere to several rules to get Tier 1 status."
+
+  utter_infolegalstructures:
+  - text: "Legal structures for businesses in the United Kingdom
+
+        There are a variety of different business types in the UK, and you’ll need to choose the option that most closely fits your company’s structure.
+        Sole trader
+
+        If you want to work as a self-employed person in the UK or run a business on your own, you can become a sole trader.
+
+        As a sole trader, you can keep all of your business profits. You must make your own arrangements to pay income tax and National Insurance. You are personally liable for all business debts.
+
+        Freelancers in the UK are also classed as sole traders. To work as a freelancer in the UK, all you need to do is to register as self-employed and make sure that you pay the right amounts of tax and National Insurance.
+        General partnership
+
+        This business type involves two or more individuals (or companies) setting up together, with responsibility shared equally between partners. Profits are also shared equally, with each partner paying tax on their share and jointly liable for debts and losses. This structure is often suitable for small businesses.
+        Limited partnership
+
+        These partnerships are similar to general partnerships but have at least one general partner who runs the business and is personally liable for any business debts. The partnership also has at least one limited partner whose input is purely financial and who is only liable up to the amount they’ve contributed.
+        Limited liability partnership (LLP)
+
+        This partnership agreement involves neither partner being personally liable for debts that the business can’t pay. This partnership requires a written LLP agreement and must register with Companies House, the UK’s registrar of companies.
+        Private Limited Company (Ltd)
+
+        This business type is a separate legal entity from the people that run it. Limited companies are incorporated through registration at Companies House and need at least one director and one shareholder. Shares in the company cannot be traded publicly.
+        Public Limited Company (PLC)
+
+        PLCs differ from limited companies in that their shares may be traded publicly. You need to have a minimum share capital of £50,000, with at least 25% paid prior to start-up.
+        Unlimited company
+
+        This company type isn’t very common in the UK. It involves shareholders having joint unlimited liability for business debts, meaning they can be covered with personal assets in the event of the business assets not meeting debts.
+        Social enterprise
+
+        This is a UK business type that exists to invest any profits made to meet charitable, social, or community objectives rather than to distribute among shareholders.
+
+        Social enterprises are structured similarly to limited companies and include charities, cooperatives, and community interest companies (CIC).
+        Unincorporated association
+
+        This is an unregistered, unincorporated form of non-profit organization that can include voluntary groups, small community groups, and sports clubs.
+        Offshore company
+
+        An offshore company is registered, established, or incorporated outside of your country of residence. Offshore incorporation is a straightforward process in popular offshore financial centers and tax havens around the world.
+
+        Offshore structures can provide a wide range of benefits to the company and company principals, but you need to fully research the rules before setting up."
+
+  utter_infobusinessexpat:
+  - text: "How to start a business in the UK as an expat
+
+        If you want to become self-employed or start a business in the UK as a foreigner, you’ll need to follow these steps:
+        1. Check that you can legally start a business
+
+        You’ll need to make sure that your immigration status allows you to set up a business. For non-EU/EFTA nationals, this may mean ensuring that you have the necessary visa and residence permit.
+        2. Write a business plan
+
+        UK entrepreneurs need a business plan. This will help you determine whether your business ideas are likely to succeed and be sustainable.
+
+        You’ll need to research the market and prepare budget forecasts. You can download the business plan and cash flow forecast templates from the UK government website.
+        3. Decide on your structure
+
+        As above, you’ll need to choose the business structure that best represents your enterprise.
+        4. Choose a business name and address
+
+        If you’re a sole trader, you can just use your own name if you want. You’ll need an address for registering your UK business for tax purposes and joining the company register.
+
+        Only limited companies need to register their name, though others can register as a trademark to stop anyone else from trading under the name.
+
+        If you’re setting up a limited company, you must appoint directors and a company secretary, work out your shares and shareholders, write your memorandum and articles of association, open a separate bank account, and register for corporation tax.
+        5. Register with HM Revenue and Customs
+
+        You will need to register your UK business with HMRC for tax purposes. Limited Companies need to register with Companies House at the cost of £12 (online) or £40 (by mail).
+        6. Check any additional rules for your type of business
+
+        Depending on the nature of your UK business, there may be additional requirements, such as:
+
+        Licenses or permits (e.g., for selling food, playing music, or trading in the street)
+        Insurance
+        Rules to follow if you buy or sell goods abroad or store personal information"
+
+  utter_infobusinessvisa:
+  - text: "How to obtain a business visa in the United Kingdom
+
+      You can work as a freelancer, self-employed, or start a business in the UK as long as you have the right to work and live in the UK.
+      A market vendor in London
+
+      For non-EU/EFTA nationals, this may mean having a relevant work visa and biometric residence permit. See our guide to UK visas and residence permits for more information.
+
+      If you are looking to come and start a business in the UK or pursue a business idea, there are a number of visas you can apply for.
+      Innovator visa
+
+      Innovator visas have similar rules to the now-defunct entrepreneur visas.
+
+      You must have at least £50,000 in investment capital, or have invested this sum already in the previous year. If you haven’t invested the money yourself, it must come from a government-endorsed funding competition, a venture capital fund registered with the Financial Conduct Authority, or a UK government department.
+
+      You must also adhere to some other rules too, such as demonstrating you are from a majority English-speaking country or have taken an accredited English language examination.
+
+      Visas cost £1,021 and last for three years. You can extend your visa by a further three years if you meet the criteria.
+      Start-up visa
+
+      You can apply for a start-up visa if you have an endorsement from a UK higher education institution or an organization with a history of supporting UK entrepreneurs.
+
+      You’ll need to prove your business idea is new, innovative, and with potential for growth. Fees range from £308 to £363.
+
+      You can stay in the UK for two years with a start-up visa. You can’t extend a start-up visa, but they can switch to an entrepreneur visa upon expiry in some circumstances.
+      Investor visa
+
+      If you have £2 million to invest in the UK economy, you can apply for an investor visa. It costs £1,623 to apply and the earliest you can submit an application is three months before you plan to travel.
+
+      Investor visas allow you to stay in the UK for a maximum of three years and four months. You can extend your visa by a further two years subject to meeting the criteria."
+
+  utter_infobusinessforeignbranchsubsidiary:
+  - text: "Foreign companies opening up a branch or subsidiary in the United Kingdom
+
+      Overseas companies that want to operate as a business in the UK or open up a branch or subsidiary in the UK need to register as an overseas company with Companies House.
+
+      If you have a business in another country and want to open up a branch of the business in the UK, you need to complete form OS IN01 (Registration of an overseas company opening a UK establishment). The registration fee is £20."
+
+  utter_infobusinessnonprofit:
+  - text: "Setting up a charity in the UK follows a slightly different process than a for-profit business. There are six steps:
+
+      Find at least three trustees for your charity.
+      Ensure the business will adhere to the government’s rules on having charitable purposes.
+      Choose a name for your company.
+      Choose a structure from the government’s four recommended charity structures.
+      Create a governing document (rulebook) for your charity, which explains how the company runs to trustees.
+      If you can prove your charity’s annual income will be more than £5,000 a year or classifies as a charitable incorporated organization, you can now formally register as a charity with the Charity Commission."
+
+  utter_infobusinessadministration:
+  - text: "All UK businesses must keep a record of their accounts for tax and auditing purposes. Self-employed freelancers don’t need to keep official accounts but do need to keep a record of income and tax-deductible expenses."
+
+  utter_infobusinessbanking:
+  - text: "Limited companies, social enterprise companies, and registered charities need to have a separate UK business bank account. Partnerships and sole traders aren’t legally required to have separate business accounts, but it is a good idea to do so in order to keep accounting processes simple.
+
+      To apply, freelancers and sole traders/partnerships usually must provide a passport/ID for all partners, as well as proof of personal and business addresses. Limited companies usually need to provide a Companies House registration number, details of directors, and estimated annual turnover.
+
+      Most UK banks have a business manager or business-dedicated member of staff, who will usually want to meet you to discuss opening the business account, what your business goals are, and what you expect from the account. You might be encouraged to draw up a business plan or budgeting forecast; this is necessary if you plan to ask the bank for a loan at any point."
+
+  utter_infobusinesstax:
+  - text: "All UK businesses and UK entrepreneurs need to register with HMRC for tax purposes and are responsible for submitting their own tax returns.
+
+      Self-employed sole traders and those in partnerships pay taxes on business profits. Limited UK companies and foreign companies with UK branches need to register for corporation tax. The rate of corporation tax is 20% on profits, minus any allowances and relief.
+
+      UK businesses will also need to register for VAT if their annual turnover is more than £83,000, and may need to pay capital gains tax if business assets are sold at a profit. The UK tax year runs from 6 April. Tax returns must be submitted and any tax owed paid by 31 January following the end of the previous tax year.
+
+      The government provides an online self-employed tax calculator and information on business tax. If you’re looking for independent, professional advice on financial matters, search online with Unbiased and find the right help for your situation."
+
+  utter_infobusinessinsurance:
+  - text: "The main types of business insurance in the UK include:
+
+    Public liability insurance – compulsory for businesses with a public premises or those carrying out activities publicly. This covers both injury and damage to property caused to third parties.
+    Employers’ liability insurance – compulsory to all businesses with employees, covering any claims made by employees if they are sick or injured due to their work for you.
+    Professional indemnity insurance – also called professional liability insurance. This is only compulsory for certain professions (e.g., solicitor, accountant, private consultant) but is taken out to cover businesses in the event of claims relating to financial or reputational damage.
+    Building insurance – you may need this form of insurance depending on your type of business and type of premises you work from. It provides similar coverage to home building insurance.
+    Contents insurance – this covers business equipment and movable property. It is not compulsory but is recommended for businesses with a large volume or value of movable assets."
+
+  utter_infobusinessstaffemployment:
+  - text: "If you are starting up a UK business that employs staff, there are a number of things you need to do, including registering as an employer with HMRC and getting employers liability insurance.
+
+      You can employ foreign staff in your UK business as long as they have the legal right to work in the UK. You can check if someone is eligible to work in the UK by following the steps on the government’s website.
+
+      When employing staff, you must abide by minimum wage rules and make social security and pension contributions in line with the regulations. You can find out more about employing staff in our guide to UK labor law."
+
+  utter_infobusinesssupportadvice:
+  - text: "You can get help and support for your UK business from a number of schemes specializing in different areas, including help with finances, taxation, and business planning.
+
+      UK business start-up costs vary depending on several factors but there are various sources of support in terms of UK business grants and loans.
+
+      Contact details for government business helplines in England, Scotland, Wales, and Northern Ireland can be found on the government’s website.
+
+      The government also provides a list of its current support schemes and UK business grants, as well as information on start-up loans for UK businesses.
+
+      It is a good idea to get legal advice to help make the process as smooth as possible. The Law Society provides advice on setting up a business and finding a solicitor."
+
+ #utter denial story line
+
+  utter_denialstoryline:
+  - text: "Sorry that we could not be of assistance this time! You may ask another question and we will be glad to try and answer you!"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

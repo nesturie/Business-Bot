@@ -1,0 +1,62 @@
+version: "2.0"
+nlu:
+- intent: businessculture
+  examples: |
+    - Can you tell me more about the culture in the United Kingdom UK regardaing or about the business perspective?
+- intent: startabusiness
+  examples: |
+    - Can you tell me more about how I can open a business in the United Kingdom?
+- intent: legalstructures
+  examples: |
+    - What legal structures are there in the United Kingdom regarding businesses?
+- intent: businessexpat
+  examples: |
+    - I want to start as self employed?
+- intent: businessvisa
+  examples: |
+    - What visas are available in the United Kingdom ?
+- intent: businessforeignbranchsubsidiary
+  examples: |
+    - I would like to open a new branch of my foreign company in the United Kingdom?
+- intent: businessnonprofit
+  examples: |
+    - I would like some information about non profit businesses in the United Kingdom?
+- intent: businessadministration
+  examples: |
+    - How can I administrate my business in the UK?
+- intent: businessbanking
+  examples: |
+    - What banking can I open in the United Kingdom?
+- intent: businesstax
+  examples: |
+    - Taxation for businesses in the United Kingdom
+- intent: businessstaffemployment
+  examples: |
+    - What regulations should I follow to employ people in my business?
+- intent: businesssupportadvice
+  examples: |
+    - start up loans
+- intent: bot_challenge
+  examples: |
+    - am I talking to a humaan?
+- intent: affirm
+  examples: |
+    - indeed
+- intent: deny
+  examples: |
+    - don't like that
+- intent: businessinsurance
+  examples: |
+    - Employers’ liability insurance
+- intent: greet
+  examples: |
+    - hello there
+- intent: goodbye
+  examples: |
+    - good afternoon
+- intent: mood_great
+  examples: |
+    - great
+- intent: mood_unhappy
+  examples: |
+    - I am disappointed
